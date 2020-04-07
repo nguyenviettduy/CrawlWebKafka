@@ -58,7 +58,7 @@ public class CrawlWebsiteProducer {
 
     public static void main(String[] args) {
         CrawlWebsiteProducer crawl = new CrawlWebsiteProducer();
-        HashSet<String> links = crawl.getPageLinks("http://www.mkyong.com/", 0);
+        HashSet<String> links = crawl.getPageLinks("https://uet.vnu.edu.vn/", 0);
         crawl.sendMessage(links);
     }
 }
